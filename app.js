@@ -174,16 +174,34 @@ function result() {
 
     if (b1.innerText == X && b2.innerText == X && b3.innerText == X) {
         wonX();
+        b1.style.color = "green";
+        b2.style.color = "green";
+        b3.style.color = "green";
     } else if (b1.innerText == O && b2.innerText == O && b3.innerText == O) {
         wonO();
+        b1.style.color = "green";
+        b2.style.color = "green";
+        b3.style.color = "green";
     } else if (b4.innerText == X && b5.innerText == X && b6.innerText == X) {
         wonX();
+        b4.style.color = "green";
+        b5.style.color = "green";
+        b6.style.color = "green";
     } else if (b4.innerText == O && b5.innerText == O && b6.innerText == O) {
         wonO();
+        b4.style.color = "green";
+        b5.style.color = "green";
+        b6.style.color = "green";
     } else if (b7.innerText == X && b8.innerText == X && b9.innerText == X) {
         wonX();
+        b7.style.color = "green";
+        b8.style.color = "green";
+        b9.style.color = "green";
     } else if (b7.innerText == O && b8.innerText == O && b9.innerText == O) {
         wonO();
+        b7.style.color = "green";
+        b8.style.color = "green";
+        b9.style.color = "green";
     }
 
     // HORIZONTAL CASE END
@@ -191,16 +209,34 @@ function result() {
     // VERTICAL CASE
     else if (b1.innerText == X && b4.innerText == X && b7.innerText == X) {
         wonX();
+        b1.style.color = "green";
+        b4.style.color = "green";
+        b7.style.color = "green";
     } else if (b1.innerText == O && b4.innerText == O && b7.innerText == O) {
         wonO();
+        b1.style.color = "green";
+        b4.style.color = "green";
+        b7.style.color = "green";
     } else if (b2.innerText == X && b5.innerText == X && b8.innerText == X) {
         wonX();
+        b2.style.color = "green";
+        b5.style.color = "green";
+        b8.style.color = "green";
     } else if (b2.innerText == O && b5.innerText == O && b8.innerText == O) {
         wonO();
+        b2.style.color = "green";
+        b5.style.color = "green";
+        b8.style.color = "green";
     } else if (b3.innerText == X && b6.innerText == X && b9.innerText == X) {
         wonX();
+        b3.style.color = "green";
+        b6.style.color = "green";
+        b9.style.color = "green";
     } else if (b3.innerText == O && b6.innerText == O && b9.innerText == O) {
         wonO();
+        b3.style.color = "green";
+        b6.style.color = "green";
+        b9.style.color = "green";
     }
 
     // VERTICAL CASE END
@@ -208,12 +244,24 @@ function result() {
     // DIAGONAL CASE
     else if (b1.innerText == X && b5.innerText == X && b9.innerText == X) {
         wonX();
+        b1.style.color = "green";
+        b5.style.color = "green";
+        b9.style.color = "green";
     } else if (b1.innerText == O && b5.innerText == O && b9.innerText == O) {
         wonO();
+        b1.style.color = "green";
+        b5.style.color = "green";
+        b9.style.color = "green";
     } else if (b3.innerText == X && b5.innerText == X && b7.innerText == X) {
         wonX();
+        b3.style.color = "green";
+        b5.style.color = "green";
+        b7.style.color = "green";
     } else if (b3.innerText == O && b5.innerText == O && b7.innerText == O) {
         wonO();
+        b3.style.color = "green";
+        b5.style.color = "green";
+        b7.style.color = "green";
     }
 
 
@@ -268,6 +316,15 @@ function myfunctionreset() {
     b9.disabled = false;
     rule = 1;
     declared.innerText = X;
+    b1.style.color = "black";
+    b2.style.color = "black";
+    b3.style.color = "black";
+    b4.style.color = "black";
+    b5.style.color = "black";
+    b6.style.color = "black";
+    b7.style.color = "black";
+    b8.style.color = "black";
+    b9.style.color = "black";
 }
 
 function draw() {
